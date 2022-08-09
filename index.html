@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/bootstrap.min.css">
+  <title>js-bazar</title>
+  <style>
+    p {
+      font-family: sans-serif;
+      font-weight: 600;
+      font-style: normal;
+      font-size: 18px;
+    }
+  </style>
+</head>
+<body>
+  <main class="main">
+    <section class="hero__main hero">
+      <div class="hero__container container">
+        <div class="hero__inner row mt-5 bg-info p-5 rounded-4 align-items-start justify-content-between" style="--bs-bg-opacity: .8;">
+          <div class="col-5 hero__content bg-success p-5 rounded-4 fst-italic">
+            <form class="hero__form text-center">
+              <div class="mb-3">
+                <label class="form-label fs-1" for="exampleInputEmail1">Maxsulot turi:</label>
+                <input class="form-control" type="text" id="exampleInputEmail1" aria-describedby="emailHelp" autocomplete="off" required>
+                <div class="form-text text-dark fs-5" id="emailHelp">Iltimos faqat maxsulot turini yozing</div>
+              </div>
+
+              <button class="btn btn-primary me-3 fs-5" type="submit">Submit</button>
+
+              <button class="btn btn-danger fs-5" type="reset">Reset</button>
+            </form>
+          </div>
+
+          <ul class="hero__info col-5 bg-danger p-5 rounded-4 list-unstyled overflow-hidden">
+            <li>
+              <p class="fs-4 text-primary">Siz yozgan maxsulotlar:</p>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+  </main>
+  <script src="./js/script.js"></script>
+</body>
+</html>
+
